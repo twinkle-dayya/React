@@ -4,7 +4,6 @@ import { useState } from "react";
 import Table from "./Table";
 
 const ApiIntegration = () => {
-  console.log("hello this is new");
   const [result, setResult] = useState([]);
   const [allResults, setAllResults] = useState([]);
   const [length, setLength] = useState(0);
